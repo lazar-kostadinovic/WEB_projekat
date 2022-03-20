@@ -1,0 +1,118 @@
+.mainDiv {
+    display: flex;
+    flex-direction: column;
+}
+
+.divDodavanje {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    width: 1370px;
+    height: 700px;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/d/d2/The_new_2018_Wigan_Bus_Station.jpg);
+    background-size:cover;
+}
+.divAutobuskaStanicaa,.divAutobus,.divOdrediste {
+  
+    height: 400px;          
+    margin: 50px;
+    border: 1px solid black;
+    background-color: lightgray;
+    
+}
+
+.divDisplay {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 1;
+    background-color: lightgray;
+
+}
+
+
+.voznjeAutobusa {
+border:1px solid black;
+opacity: 0.9;
+border-style: solid;
+margin: 6px;
+border-bottom: solid;
+border-radius: 8px;
+border-width: 1px;
+background-color: transparent;
+                   
+                }
+
+.divPrikaziAutobusa {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+background-color: gray;
+width: 100%;
+                }
+                
+.divAutobuskaStanica {
+display: flex;
+flex-direction: column;
+background-color: lightgray;
+border-style: solid;
+border:1px dotted black;
+width: 100%;
+}
+.divDodavanjeNoveVoznjeAutobusa{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+.divPrikazAutobusaZaRezervisanje
+{
+    display:flex;
+    
+}
+.divUnosPodataka {
+    display: flex;
+    flex-direction: row;
+    min-width: 150px;
+    width: 100%;
+    margin: 5px;
+}
+.divDodavanjeAutobusa{
+    border:1px dotted black;
+    flex-basis: 200px;
+    flex-grow: 0;
+    flex-shrink: 1;
+}
+.dugmeUcitajAutobuse
+{
+    display: flex;
+   
+    
+}
+.divPrikazAutobusa {
+    display: flex;
+    flex-direction: column;
+    border-radius: 6px;
+    background-color:lightgray;
+    flex: 1 0 auto;
+    width: 200px;
+    border:1px dotted black;
+    margin: 10px;
+    border-style: solid;
+    border-width: 1px;
+}
+.divDodavanjeNoveVoznjeAutobusu {
+    border-radius: 10px;
+    border: 1px solid black;
+    margin: 10px;
+}
+           
+.labNaziv {
+    display: block;
+    font-weight: bold;
+    font-size: 25px;
+    background-color:gray;
+    
+}
+         
+                
