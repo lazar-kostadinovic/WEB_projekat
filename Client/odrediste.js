@@ -270,9 +270,10 @@ export class Odrediste {
 
                         inputGrad.style.display = "block";
                         select.style.display = "none ";
-                        inputZemlja.style.display = "block";
                         dugmeSave.style.display = "none";
                         dugmeUpdate.style.display = "block";
+
+
                         inputVreme.disabled = true;
                         inputDuzina.disabled = true;
                         inputNazivStanice.disabled = true;

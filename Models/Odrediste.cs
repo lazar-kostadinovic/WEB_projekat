@@ -24,10 +24,7 @@ namespace Models{
         
         public virtual List<Voznja> Voznja {get;set;}
         
-        public Odrediste()
-        {
-            Voznja=new List<Voznja>();
-        }
+       
         
     }
 }

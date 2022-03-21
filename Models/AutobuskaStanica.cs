@@ -18,10 +18,6 @@ namespace Models{
         public string Lokacija {get;set;}
         public virtual List<Autobus> Autobus{get;set;}
 
-   public AutobuskaStanica()
-    {
-        Autobus=new List<Autobus>();
-    }
-    
+  
     }
 }

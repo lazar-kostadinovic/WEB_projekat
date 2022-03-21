@@ -124,7 +124,7 @@ export class Autobus {
 
           
 
-            if ((registracija == "")&&(marka=="")&&(model=="")&&(brojSedista==""))
+            if ((registracija == "")||(marka=="")||(model=="")||(brojSedista==""))
                 alert("Neophodno je popuniti sva polja!");
             else
                 fetch("https://localhost:5001/Autobus/DodajAutobus/" + idStanice, {
@@ -147,7 +147,7 @@ export class Autobus {
      
                         alert("Uspesno ste dodali autobus");
                     } else {
-                        alert("Nastala je greska prilikom dodavanja");
+                        alert("Broj sedista mora biti u opsegu od 20 do 200!");
                     }
                 });
         }

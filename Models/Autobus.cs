@@ -32,11 +32,7 @@ namespace Models{
         public virtual AutobuskaStanica Stanica{get;set;}
         
         public virtual List<Voznja> Voznja{get;set;}
-       public Autobus()
-        {
-            Voznja=new List<Voznja>();
-        }
-        
+      
 
     }
 }

@@ -197,14 +197,14 @@ export class AutobuskaStanica {
                     this.autobusi.push(autobus);
                 }));
                 let dugmeUcitajAutobuse = this.formaKontejner.querySelector(".dugmeUcitajAutobuse");
-                this.pravljenjeTermina(divPrikazAutobusaZaRezervisanje, dugmeUcitajAutobuse); ///
+                this.pravljenjeTermina(divPrikazAutobusaZaRezervisanje, dugmeUcitajAutobuse); 
 
                 dugmeUcitajAutobuse.disabled = false;
             } else {
-                alert("Nastala je greska prilikom dodavanja");
+                alert("Broj sedista mora biti u opsegu od 20 do 200!");
             }
         });
-    } else alert("Neophodno je uneti ispravne podatke!");
+    } else alert("Neophodno je uneti sve ispravne podatke!");
 }
 
 this.pravljenjeTermina(divPrikazAutobusaZaRezervisanje, dugmeUcitajAutobuse);
@@ -416,7 +416,7 @@ this.pravljenjeTermina(divPrikazAutobusaZaRezervisanje, dugmeUcitajAutobuse);
             divPrikazAutobusaZaRezervisanje1.appendChild(br);
 
             var labOdDol = document.createElement("label");
-            labOdDol.innerHTML = "Unos vremena i dužine trajanja voznje u minutima";
+            labOdDol.innerHTML = "Unos vremene polaska voznje";
             divPrikazAutobusaZaRezervisanje1.appendChild(labOdDol);
 
             var input = document.createElement("input");

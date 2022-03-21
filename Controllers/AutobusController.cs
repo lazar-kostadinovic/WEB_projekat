@@ -22,7 +22,7 @@ namespace Autobuska_Stanica.Controllers
            Context=context;
 
        }   
-    
+    /*
         [Route("DodajAutobus/{idAutobuskeStanice}")]
         [HttpPost]
         public async Task<ActionResult> DodajAutobus(int idAutobuskeStanice,[FromBody] Autobus autobus)
@@ -39,9 +39,10 @@ namespace Autobuska_Stanica.Controllers
                 }
                 else return BadRequest("Nije uspesno dodat autobus");
             }
-            else return BadRequest("Greska prilikom dodavanja autobusa11");
+            else return BadRequest("Greska prilikom dodavanja autobusa");
         }
-        /*
+        */
+        
         [Route("DodajAutobus/{idAutobuskeStanice}")]
         [HttpPost]
         public async Task<ActionResult> DodajAutobus(int idAutobuskeStanice,[FromBody] Autobus autobus)
@@ -71,7 +72,7 @@ namespace Autobuska_Stanica.Controllers
                 return BadRequest(e.Message);
             }
         }  
-*/
+
        [Route("PreuzimanjeAutobusaIzStanice/{idAutobuskeStanice}")]
         [HttpGet]
         public async Task<JsonResult> PreuzimanjeAutobusaIzStanice(int idAutobuskeStanice)
